@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="shortcut icon" href="componentes/images/dev.ico" type="image/x-icon">
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <div id="title"> <!-- Canto esquerdo superior -->
+            <h1>Training web <br> Development</h1>
+        </div>
+        <ul> <!-- Menu -->
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviço</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href=""><li>Contato</li></a>
+            <a href="#"><li class="inscreva-se-btn">Já tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <main> <!-- Parte principal do site -->
+        <aside > <!-- Tag semântica -->
+            <h2><spam>Inscreva-se agora</spam> <br> na Newslatter</h2> <!-- Foi inserido o spam pq o essa tag é utilizada como elemento de frase, no qual este elemento altera o texto já modificado -->
+            <p>
+                Treinando <a href="https://github.com/GabStabile/ExerciciosWeb" target="_blank" real="external" style="text-decoration: none;"><b>HTML</b></a> e <a href="https://github.com/GabStabile/ExerciciosWeb" target="_blank" real="external" style="text-decoration: none;"><b>CSS</b></a> na prática com intuito de maximizar meus conhecimentos em Desenvolvimento Web. 
+            </p>
+            
+            <p>
+                Diminua/minimalize a tela abaixo de <code>720px</code> para ver a <code>responsividade</code> de código na prática.
+            </p>
+            
+            <p>
+                Esta landing page foi inspirada no tutorial do <a href="https://github.com/alexandresaints/landing-page-tutorial" target="_blank" real="external" style="text-decoration: none;"><b>Alexandre Saints</b></a>.
+            </p>    
+            <form action=""> <!-- Tag semânticapara formulário -->
+                <input type="text" placeholder="Nome"> <!-- Input de texto - placeholder é um atributo que específica umca dica curta em um campo de entrada, neste caso: Nome-->
+                <input type="text" placeholder="E-mail">
+                <input type="submit" value="Enviar"> <!-- É representado por um botão que, quando apertado, causa a submissão dos dados à URL especificada -->
+            </form>
+        </aside>
+
+        <article class="img"> <!-- Div semântica para locais aonde terão imagens -->
+            <a href="https://i.gifer.com/XSgq.gif" target="_blank" real="external"><img src="componentes/images/ondaBlackWhite.gif" alt="Globo Tech"></a>
+        </article>
+    </main>
+</body>
+</html>
